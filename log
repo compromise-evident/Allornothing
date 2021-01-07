@@ -1,0 +1,9 @@
+/* Allornothing log
+
+
+
+Version 1       "How to run the program" has been re-written and can be placed within
+                any .cpp file. Its current state will be used in all files until improved
+                again (this how-to note is included in all my works.) temp_x search is now
+                purposely non-algebraic but slow for clarity ("new key" or "adjusted key".)
+                Thursday, January 07 2021 */
