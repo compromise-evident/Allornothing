@@ -1,0 +1,18 @@
+/* Allornothing log
+
+
+
+Version 1.1     All about serious file overwriting (at user's permission.) Pauses, allows user to
+                copy the keys onto any other devices, then if 'y' entered to continue, plainfile
+                and all keys are heavily overwritten and removed (option 1.) And also in option 2:
+                pauses, allows users to allow viewing/copying of the decrypted file, then if 'y'
+                entered to continue, keys and file are heavily overwritten and removed. In-file
+                documentation is now 80 char long--width of terminal, shorter, less eye movement.
+                I should remind you that overwrites are only effective on HDDs. See OTP log: 4.1.
+                Friday, January 15 2021
+
+Version 1       "How to run the program" has been re-written and can be placed within
+                any .cpp file. Its current state will be used in all files until improved
+                again (this how-to note is included in all my works.) temp_x search is now
+                purposely non-algebraic but slow for clarity ("new key" or "adjusted key".)
+                Thursday, January 07 2021 */
