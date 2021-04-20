@@ -1,0 +1,28 @@
+/* Allornothing log
+
+
+
+Version 2       Sector accident detection  (writes to disk,  reads it back, then
+                compares it to  what's held in  RAM.)  File overwriting is still
+                present upon user permission for killing  keys &  plainfile when
+                sector accident is detected. As usual, sector_accident_detection
+                is on by default and can be disabled by setting this  boolean to
+                false.Updated "How to run/make executable with g++". Updated RAM
+                overwriting. Placed input boundaries for when users enter seeds.
+                All things compatible with  previous;  use this version at will.
+                Tuesday, April 20 2021
+
+Version 1.1     All about serious file overwriting (at user's permission.) Pauses, allows user to
+                copy the keys onto any other devices, then if 'y' entered to continue, plainfile
+                and all keys are heavily overwritten and removed (option 1.) And also in option 2:
+                pauses, allows users to allow viewing/copying of the decrypted file, then if 'y'
+                entered to continue, keys and file are heavily overwritten and removed. In-file
+                documentation is now 80 char long--width of terminal, shorter, less eye movement.
+                I should remind you that overwrites are only effective on HDDs. See OTP log: 4.1.
+                Friday, January 15 2021
+
+Version 1       "How to run the program" has been re-written and can be placed within
+                any .cpp file. Its current state will be used in all files until improved
+                again (this how-to note is included in all my works.) temp_x search is now
+                purposely non-algebraic but slow for clarity ("new key" or "adjusted key".)
+                Thursday, January 07 2021 */
