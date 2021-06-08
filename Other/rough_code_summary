@@ -1,0 +1,15 @@
+Rough code summary of Allornothing 2.1
+
+
+
+Encrypt
+    1. Generates randomness in 500 million RAM bytes (100 million per key; 5 keys.)
+    2. Gets user's file (100 million bytes max) and overwrites the first 100 million
+       RAM bytes with that file (if file is 3 bytes, overwrites 3 RAM bytes.)
+    3. Sums all RAM bytes mod 256 while scrambling the first 100 million.
+    4. Creates 5 key files. key_1 consists of the first 100 million RAM bytes
+       while key_2 consists of the second contiguous 100 million RAM bytes and so on.
+
+Decrypt
+    1. Loads 5 keys and lays them on top of one another via summation mod 256.
+    2. The resulting 100 million RAM bytes produce the original raw file.
